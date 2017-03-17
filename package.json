@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config-kaola",
+  "version": "0.0.1",
+  "description": "ESLint rules for Kaola",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaola-fed/eslint-config-kaola.git"
+  },
+  "keywords": [
+    "eslint",
+    "kaola"
+  ],
+  "author": "Cody Chan <int64ago@gmail.com> (https://int64ago.org)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaola-fed/eslint-config-kaola/issues"
+  },
+  "homepage": "https://github.com/kaola-fed/eslint-config-kaola#readme"
+}
