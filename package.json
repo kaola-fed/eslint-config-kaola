@@ -21,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/kaola-fed/eslint-config-kaola/issues"
   },
-  "homepage": "https://github.com/kaola-fed/eslint-config-kaola#readme"
+  "homepage": "https://github.com/kaola-fed/eslint-config-kaola#readme",
+  "engines": {
+      "node": ">=4"
+  },
+  "peerDependencies": {
+    "eslint": ">=3"
+  }
 }
