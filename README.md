@@ -2,19 +2,22 @@
 
 ESLint rules for Kaola.
 
-<!-- ## Installation
+## Installation(TODO)
 
     npm install eslint eslint-config-kaola --save-dev
 
-## Usage
+## Usage(TODO)
 
 In your `.eslintrc` file, add:
 
 ```js
 {
-    "extends": "kaola",
+    "extends": [
+        "kaola",
+        "kaola/core"
+    ]
     "rules": {
         // Additional, per-project rules...
     }
 }
-``` -->
+```
