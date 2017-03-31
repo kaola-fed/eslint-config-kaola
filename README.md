@@ -27,3 +27,7 @@ ONLY need core rules ?
     "rules": {}
 }
 ```
+
+## License
+
+MIT
