@@ -1,22 +1,29 @@
-# eslint-config-kaola
+# eslint-config-kaola 
+
+[![npm](https://img.shields.io/npm/v/eslint-config-kaola.svg?style=flat-square)]()
 
 ESLint rules for Kaola.
 
-## Installation(TODO)
+## Installation
 
-    npm install eslint eslint-config-kaola --save-dev
+`$ npm i eslint eslint-config-kaola -S`
 
-## Usage(TODO)
+## Usage
 
 In your `.eslintrc` file, add:
 
 ```js
 {
-    "extends": [
-        "kaola",
-        "kaola/rules/core"
-    ],
-    "rules": {
-    }
+    "extends": [ "kaola" ],
+    "rules": {}
+}
+```
+
+ONLY need core rules ?
+
+```js
+{
+    "extends": [ "kaola/rules/core" ],
+    "rules": {}
 }
 ```
