@@ -6,7 +6,7 @@ ESLint rules for Kaola.
 
 ## Installation
 
-`$ npm i eslint eslint-config-kaola -S`
+`$ npm i eslint eslint-config-kaola -D`
 
 ## Usage
 
