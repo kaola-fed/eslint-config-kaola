@@ -16,7 +16,7 @@
     "eslint",
     "kaola"
   ],
-  "author": "Cody Chan <int64ago@gmail.com> (https://int64ago.org)",
+  "author": "Kaola",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kaola-fed/eslint-config-kaola/issues"
