@@ -15,7 +15,7 @@ In your `.eslintrc` file, add:
     "extends": [
         "kaola",
         "kaola/core"
-    ]
+    ],
     "rules": {
         // Additional, per-project rules...
     }
