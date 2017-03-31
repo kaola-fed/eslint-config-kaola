@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/kaola-fed/eslint-config-kaola#readme",
   "engines": {
-      "node": ">=4"
+    "node": ">=4"
   },
   "peerDependencies": {
     "eslint": ">=3"
