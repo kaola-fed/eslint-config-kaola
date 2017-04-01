@@ -10,13 +10,31 @@ ESLint rules for Kaola.
 
 ## Usage
 
-In your `.eslintrc` file, add:
+1. You should then setup a configuration file:
+```
+$ ./node_modules/.bin/eslint --init
+```
 
+2. In your `.eslintrc` file, add:
 ```js
 {
     "extends": [ "kaola" ],
     "rules": {}
 }
+```
+
+3. After that, you can run ESLint on any file or directory like this:
+```
+$ ./node_modules/.bin/eslint yourfile.js
+```
+Or add a script to package.json:
+```json
+"scripts": {
+    "test": "eslint yourfile.js"
+}
+```
+```shell
+$ npm run test
 ```
 
 ## License

@@ -14,9 +14,9 @@ module.exports = {
   },
   "rules": {
     "semi": [2, "always"], //要求在行末加上分号。
-    "semi-spacing": [2, { "before": false, "after": true }], //该规则用来规定分号前后是否加空格，默认配置如下，分号后面加空格，前面不加空格
-    "no-mixed-spaces-and-tabs": 2,//不允许空格和tab混用
-    "indent": [2, 4, {
+    "semi-spacing": [1, { "before": false, "after": true }], //该规则用来规定分号前后是否加空格，默认配置如下，分号后面加空格，前面不加空格
+    "no-mixed-spaces-and-tabs": 1,//不允许空格和tab混用
+    "indent": [1, 4, {
       //case用一个缩进
       "SwitchCase": 1 ,
       //变量声明用一个缩进
@@ -33,7 +33,7 @@ module.exports = {
     "quotes": [2,"single"], //单引用
     "array-bracket-spacing": [2, "never"], //数组前后不能带空格
     "camelcase": 2,//强制使用驼峰命名
-    "no-inner-declarations": [2, "never"], //warning 块内定义函数
+    "no-inner-declarations": [2, "functions"], //warning 块内定义函数
     //禁止拖尾逗号
     "comma-dangle": ["error", {
       "arrays": "never",
