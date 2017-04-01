@@ -18,10 +18,15 @@ $ ./node_modules/.bin/eslint --init
 2. In your `.eslintrc` file, add:
 ```js
 {
-    "extends": [ "kaola" ],
-    "rules": {}
+    "extends": "kaola"
 }
 ```
+<!-- ONLY need core rules ?
+```js
+{
+    "extends": "kaola/core"
+}
+``` -->
 
 3. After that, you can run ESLint on any file or directory like this:
 ```
@@ -34,7 +39,7 @@ Or add a script to package.json:
 }
 ```
 ```shell
-$ npm run test
+$ npm test
 ```
 
 ## License
