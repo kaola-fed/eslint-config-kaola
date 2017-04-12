@@ -1,4 +1,5 @@
-//所有的eslint的规则网址： http://eslint.org/docs/rules/
+// 所有的 eslint 的规则网址：http://eslint.org/docs/rules/
+// 工程使用时使用此基础规则：https://github.com/kaola-fed/eslint-config-kaola
 module.exports = {
   "parserOptions": {
     "ecmaVersion": 5,
@@ -13,7 +14,10 @@ module.exports = {
     "nej": true,
     "NEJ": true,
     "Regular": true,
-    "nes": true
+    "nes": true,
+    "Promise": true,
+    "WeixinJSBridge": true,
+    "QRCode": true
   },
   "rules": {
     "semi": [2, "always"], // 要求在行末加上分号
@@ -63,9 +67,13 @@ module.exports = {
     "no-dupe-args": 2, // 禁止 function 定义中出现重名参数
     "no-dupe-keys": 2, // 禁止对象字面量中出现重复的 key
     "no-func-assign": 2, // 禁止对 function 声明重新赋值
-    "complexity": [1, 5], // 用来控制函数的复杂度，分支超过 5 时报错, if else 分支超 5 报错
+    "max-depth": [2, 5], // 检查块语句大括号的最大可嵌套深度
+    "max-len": [2, 160], // 一行最多 160 个字符
+    "max-nested-callbacks": [2, 5], // 一个函数的最大嵌套
+    "max-statements": [2, 40], // 一个函数最大语句数
+    "complexity": [1, 20], // 用来控制函数的复杂度，{} 大括号对数不能超过 20 对
     "default-case": 2, // 所有的 switch 语句都必须要有一个 default 分支
-    "guard-for-in": 2,
+    "guard-for-in": 1,
     // 代码块的内容不能为空，禁止空代码块
     // if (foo) {
     // }

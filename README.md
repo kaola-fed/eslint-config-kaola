@@ -21,12 +21,6 @@ $ ./node_modules/.bin/eslint --init
     "extends": "kaola"
 }
 ```
-<!-- ONLY need core rules ?
-```js
-{
-    "extends": "kaola/core"
-}
-``` -->
 
 3. After that, you can run ESLint on any file or directory like this:
 ```
