@@ -27,7 +27,7 @@ Add some scripts into `package.json`:
 
 ```json
 "scripts": {
-    "test": "npm run lint"
+    "test": "npm run lint",
     "lint": "eslint path/to/file"
 }
 ```
