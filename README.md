@@ -1,6 +1,7 @@
 # eslint-config-kaola
 
 [![npm](https://img.shields.io/npm/v/eslint-config-kaola.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-kaola)
+[![Build Status](https://img.shields.io/travis/kaola-fed/eslint-config-kaola.svg?style=flat-square)](https://travis-ci.org/kaola-fed/eslint-config-kaola)
 
 ESLint rules for Kaola.
 

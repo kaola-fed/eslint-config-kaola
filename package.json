@@ -4,9 +4,12 @@
   "description": "ESLint rules for Kaola",
   "main": "index.js",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "tape": "^4.6.3"
+  },
   "scripts": {
-    "test": "echo 🌚"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
