@@ -24,7 +24,7 @@ $ npm i eslint eslint-config-kaola -D
 }
 ```
 
-Add some scripts into `package.json`:
+Add npm scripts:
 
 ```json
 "scripts": {
