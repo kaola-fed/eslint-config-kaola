@@ -18,10 +18,7 @@ module.exports = {
 
         // ES6
         // --fix: 要求箭头函数体使用大括号
-        'arrow-body-style': ['error', 'as-needed', {
-            // 要求使用大括号，并且显示返回对象字面量
-            requireReturnForObjectLiteral: true
-        }],
+        'arrow-body-style': ['error', 'as-needed'],
 
         // --fix: 要求箭头函数的参数使用圆括号
         'arrow-parens': ['error', 'as-needed', {
@@ -98,7 +95,7 @@ module.exports = {
         }],
 
         // --fix: 要求使用箭头函数作为回调
-        'prefer-arrow-callback': ['error', {
+        'prefer-arrow-callback': ['warn', {
             allowNamedFunctions: false,
             allowUnboundThis: true
         }],
