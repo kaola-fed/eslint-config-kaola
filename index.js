@@ -17,11 +17,12 @@ module.exports = {
         "nes": true,
         "Promise": true,
         "WeixinJSBridge": true,
-        "QRCode": true
+        "QRCode": true,
+        "KMUI": true
     },
     "rules": {
         "semi": [2, "always"], // 要求在行末加上分号
-        "semi-spacing": [2, {"before": false, "after": true}], // 该规则用来规定分号前后是否加空格，默认配置如下，分号后面加空格，前面不加空格
+        "semi-spacing": [1, {"before": false, "after": true}], // 该规则用来规定分号前后是否加空格，默认配置为「分号后面加空格，前面不加空格」
         "no-mixed-spaces-and-tabs": 2, //不允许空格和 tab 混用
         "indent": [2, 4, {
             // case 用一个缩进
@@ -35,30 +36,30 @@ module.exports = {
             "CallExpression": {"arguments": 1}
         }], // 缩进设置为 4 个空格
         "no-multiple-empty-lines": [2, { "max": 2, "maxEOF": 1}], // 不要留超过规定数目的空白行
-        "space-before-function-paren": ["error", "never"], // 禁止在 function 的左括号之前使用空格
-        "space-in-parens": ["error", "never"], // 禁止在圆括号内使用空格, ( 左括号右边和右括号左边 )
+        "space-before-function-paren": [1, "never"], // 禁止在 function 的左括号之前使用空格
+        "space-in-parens": [1, "never"], // 禁止在圆括号内使用空格, ( 左括号右边和右括号左边 )
         "quotes": [1, "single"], // 单引用
         "quote-props": [2, "as-needed"], // 当没有严格要求时，禁止对象字面量属性名称使用引号
-        "array-bracket-spacing": [2, "never"], // 数组前后不能带空格
+        "array-bracket-spacing": [1, "never"], // 数组前后不能带空格
         "camelcase": 2, // 强制使用驼峰命名
         "no-inner-declarations": [2, "functions"], // warning 块内定义函数
         // 禁止拖尾逗号
-        "comma-dangle": ["error", {
+        "comma-dangle": [2, {
             "arrays": "never",
             "objects": "never",
             "imports": "never",
             "exports": "never",
             "functions": "never"
         }],
-        "comma-spacing": ["error", {"before": false, "after": true}], // 逗号前禁止有空格, 逗号后必须有空格
-        "comma-style": ["error", "last"], // 禁止逗号前置
-        "brace-style": ["error", "1tbs"], // 强制使用 1tbs 风格的代码块括号，见 http://eslint.cn/docs/rules/brace-style
-        "func-call-spacing": ["error", "never"], // 禁止函数调用时括号左边有空格
-        "key-spacing": ["error", {
+        "comma-spacing": [1, {"before": false, "after": true}], // 逗号前禁止有空格, 逗号后必须有空格
+        "comma-style": [2, "last"], // 禁止逗号前置
+        "brace-style": [2, "1tbs"], // 强制使用 1tbs 风格的代码块括号，见 http://eslint.cn/docs/rules/brace-style
+        "func-call-spacing": [2, "never"], // 禁止函数调用时括号左边有空格
+        "key-spacing": [1, {
             "beforeColon": false,
             "afterColon": true,
             "mode": "strict"
-        }], // 对象名值对的冒号前禁止有空格, 冒号后必须有空格
+        }], // 对象键值对的冒号前禁止有空格, 冒号后必须有空格
         "no-irregular-whitespace": 2, // 禁止使用不合法或者不规则的空白符
         "no-negated-in-lhs": 2, // 在 in 操作符左边的操作项不能用 ! 例如这样写不对的：if ( !a in b) { // dosomething }
         "no-obj-calls": 2, // 禁止把全局对象当函数调用，比如下面写法错误的：Math(), JSON()
