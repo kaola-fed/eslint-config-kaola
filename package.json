@@ -3,13 +3,13 @@
   "version": "0.2.1",
   "description": "ESLint rules for Kaola",
   "main": "index.js",
-  "dependencies": {},
   "devDependencies": {
     "eslint": "^3.19.0",
-    "tape": "^4.6.3",
+    "tape": "^4.6.3"
+  },
+  "dependencies": {
     "eslint-config-airbnb-base": "^14.0.0",
-    "vue-eslint-parser": "^6.0.4",
-    "vue": "^2.6.10"
+    "vue-eslint-parser": "^6.0.4"
   },
   "scripts": {
     "test": "tape test/*.js"
