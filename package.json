@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "eslint-config-airbnb-base": "^14.0.0",
-    "vue-eslint-parser": "^6.0.4"
+    "vue-eslint-parser": "^6.0.4",
+    "eslint-plugin-vue": "^5.2.3"
   },
   "scripts": {
     "test": "tape test/*.js"
