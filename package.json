@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-kaola",
-  "version": "0.2.2",
+  "version": "0.2.4",
   "description": "ESLint rules for Kaola",
   "main": "index.js",
   "devDependencies": {
@@ -8,8 +8,10 @@
     "tape": "^4.6.3"
   },
   "dependencies": {
+    "eslint": "^5.0.0",
+    "eslint-plugin-import": "^2.18.2",
     "eslint-config-airbnb-base": "^14.0.0",
-    "vue-eslint-parser": "^6.0.4",
+    "vue-eslint-parser": "^5.0.0",
     "eslint-plugin-vue": "^5.2.3"
   },
   "scripts": {

@@ -395,6 +395,9 @@ module.exports = {
 	'vue/name-property-casing': 'off',	 
 	'vue/require-default-prop': 'off',	 
 	'vue/require-prop-types': 'off',	 
-	'vue/singleline-html-element-content-newline': 'off'
+	'vue/singleline-html-element-content-newline': 'off',
+    // 文件引用的规则
+    "import/no-unresolved": 0,
+    "import/extensions": 0
   },
 };
