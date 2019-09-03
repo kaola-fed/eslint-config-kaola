@@ -9,10 +9,12 @@
   },
   "dependencies": {
     "eslint": "^5.0.0",
-    "eslint-plugin-import": "^2.18.2",
     "eslint-config-airbnb-base": "^14.0.0",
-    "vue-eslint-parser": "^5.0.0",
-    "eslint-plugin-vue": "^5.2.3"
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^2.0.1",
+    "eslint-plugin-vue": "^5.2.3",
+    "vue-eslint-parser": "^5.0.0"
   },
   "scripts": {
     "test": "tape test/*.js"
