@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-kaola",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "ESLint rules for Kaola",
   "main": "index.js",
   "devDependencies": {
