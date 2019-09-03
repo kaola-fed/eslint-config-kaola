@@ -10,6 +10,7 @@ ESLint rules for Kaola.
 |Default|kaola|
 |ES2015+|kaola/esnext|
 |vue|kaola/vue|
+|react|kaola/react|
 
 ## Installation
 
