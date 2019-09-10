@@ -11,6 +11,7 @@ ESLint rules for Kaola.
 |ES2015+|kaola/esnext|
 |vue|kaola/vue|
 |react|kaola/react|
+|weex|kaola/weex|
 
 ## Installation
 
