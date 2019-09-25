@@ -20,6 +20,12 @@ module.exports = {
     'vue',
   ],
   rules: {
+    // 缩进
+    'indent': [2, 4],
+    // 允许一行代码最大数量
+    'max-len': ["error", { "code": 100 }],
+    // 要求或禁止使用拖尾逗号
+    'comma-dangle': ["error", "never"],
     // 强制箭头函数的箭头前后使用一致的空格
     'arrow-spacing': 'warn',
     // 强制 generator 函数中 * 号周围使用一致的空格
@@ -185,7 +191,7 @@ module.exports = {
     // 一个函数的最大嵌套
     'max-nested-callbacks': 'error',
     //  一个函数最大语句数
-    'max-statements': 'error',
+    'max-statements': ["error", 20],
     // 用来控制函数的复杂度，{} 大括号对数不能超过 20 对
     'complexity': 'warn',
     // 不能使用看起来像除法的正则表达式
@@ -197,7 +203,7 @@ module.exports = {
     //  禁止使用不被修改的循环条件
     'no-unmodified-loop-condition': 'error',
     //  尽量不使用否定表达式
-    'no-negated-condition': 'warn',
+    'no-negated-condition': 'off',
     //  避免使用没有意义的 call() 和 apply()
     'no-useless-call': 'error',
 
@@ -375,11 +381,11 @@ module.exports = {
 	'vue/valid-v-show': 'error',	 
     // v-text 指令必须合法
 	'vue/valid-v-text': 'error',
-	'vue/attribute-hyphenation': 'warn',	 
+	'vue/attribute-hyphenation': 'off',	 
 	'vue/html-closing-bracket-newline': 'warn',	 
 	'vue/html-closing-bracket-spacing': 'warn',	 
 	'vue/html-end-tags': 'warn',
-	'vue/html-indent': 'warn',	 
+    'vue/html-indent': ["error", 4],
 	'vue/html-quotes': 'warn',	 
 	'vue/html-self-closing': 'warn',	 
 	'vue/multiline-html-element-content-newline': 'warn',	 
@@ -398,6 +404,7 @@ module.exports = {
 	'vue/singleline-html-element-content-newline': 'off',
     // 文件引用的规则
     "import/no-unresolved": 0,
-    "import/extensions": 0
+    "import/extensions": 0,
+    'import/prefer-default-export': 0
   },
 };
